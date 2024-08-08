@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+header {
+    color: white;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+header h1 {
+    /* text-align: left;
+    margin-left: 1rem; */
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: left;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.aranhaverso-header {
+    background-color: #0e0e0e;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.aranhaverso {
+    margin-left: 2rem;
+}
+
+.aranhaverso h2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+aside {
+    border: 2px solid red;
+    width: fit-content;
+    margin: 2rem auto;
+    margin-right: 2.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.filmes-series {
+    color: white;
+    width: fit-content;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.filmes-series h2 {
+    border-bottom: 2px solid white;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+.img {
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img {
+    height: 200px;
+    margin: 1rem 1rem;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: .3s;
+    opacity: 0.5;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    opacity: 1;
+}
